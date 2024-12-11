@@ -70,7 +70,7 @@
                 activo: parseInt(activo, 10),
             };
 
-            let request = indexedDB.open('NuevoProducto', 3);
+            let request = indexedDB.open('NuevoProducto', 4);
 
             request.onupgradeneeded = function (event) {
                 let db = event.target.result;
