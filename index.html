@@ -11,7 +11,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             if (localStorage.getItem('usuario')){
                alert('Ya has iniciado sesión');
-                window.location.href = 'bienvenido.html';
+                window.location.href = '/assets/html/bienvenido.html';
             }
             let request = indexedDB.open('miBaseDeDatos', 1);
 
